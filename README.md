@@ -21,3 +21,23 @@ python notes.py nfe name folder extensions
 python notes.py nef name extensions folder
 python notes.py fen folder extensions name
 ```
+
+# Auto Shutdown
+This program shut down the computer in 300s after started
+
+The idea is to add this program to the computer tasks (taskschd.msc) so it can start automatically at a certain hour
+
+# Rename Random
+
+When running this, the idea is to rename files in one, or various folders
+
+The new files name will be random, actually 8 random characters, for example, I have the file test1.jpg the file will be named aHtw4FG9.jpg
+
+```
+python rename_random.py folder_with_files1
+python rename_random.py folder_with_files1 folder_with_files2 folder_with_files2 folder_with_files3 (...)
+```
+
+# Youtube Downloader
+
+As the name says, this program is used to download videos from YouTube
